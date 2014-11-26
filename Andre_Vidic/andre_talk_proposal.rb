@@ -1,24 +1,23 @@
 class Sublime
 
 	def intialize
-		"Andre's wdi_conf proposal on.."
+		p "Andre's wdi_conf proposal on.."
 	end
 
-	def shortucts
-		"Sublime keyboard shortucts"
-		"---------------------------"
-		"A joint talk with Rob Will"
+	def shortcuts
+		p "Sublime keyboard shortucts"
+		p "---------------------------"
+		p "A joint talk with Rob Will"
 
-		"Topics to be covered"
-		"--------------------"
+		p "Topics to be covered"
+		p "--------------------"
 
-		"Andre's Topics"
-		"-Where to find cool sublime colour schemes"
-		"-How to setting up colour toggle shortcut on sublime"
+		p "Andre's Topics"
+		p "-Where to find cool sublime colour schemes"
+		p "-How to setting up colour toggle shortcut on sublime"
 
-		"Rob's Topics"
+		p "Rob's Topics"
 	end
 end
 
-s1 = Sublime.new
-s1.shortcuts
+Sublime.new.shortcuts
