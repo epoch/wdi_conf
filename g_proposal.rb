@@ -1,4 +1,4 @@
-class Proposal
+module Proposal
 
   def initialize
     @buzz_words = ['Backbone']
@@ -6,6 +6,8 @@ class Proposal
 
   def talk_name
     "Adding more stuff to it"
+
+    redirect_to :dt
   end
 
   
