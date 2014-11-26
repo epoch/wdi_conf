@@ -1,15 +1,13 @@
 class Proposal
 
   def initialize
-    @buzz_words = ['Swing', 'Swipte', 'Flip Cards']
+    @buzz_words = ['Backbone']
   end
 
   def talk_name
-    "Swiping selection"
+    "Adding more stuff to it"
   end
 
-  def source
-    "https://github.com/gajus/swing"
-  end
+  
 
 end
