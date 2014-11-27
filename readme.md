@@ -1,6 +1,8 @@
-# lightning talk proposals
+# WDI Conf Melbourne
 
-## and lightning talk requests
+## lightning talk proposals
+
+### and lightning talk requests
 
 First time setup instructions:
 
