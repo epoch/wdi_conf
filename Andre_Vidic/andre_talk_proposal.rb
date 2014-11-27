@@ -17,6 +17,8 @@ class Sublime
 		p "-How to setting up colour toggle shortcut on sublime"
 
 		p "Rob's Topics"
+		p "-Keyboard shortcuts around sublime"
+		
 	end
 end
 
