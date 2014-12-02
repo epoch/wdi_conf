@@ -2,11 +2,8 @@
 class Wdi
 
   def learn(knowledge)
-
     if learn == knowledge
-
   end
-
 end
 
 
@@ -28,7 +25,7 @@ describe 'wdi' do
       ['Cucumber', false],
       ].each do |input, expected|
 
-      it "I would like to learn #{input}" do
+      it "I would like to learn #{input} and in return I will talk about how to decorate a (real) cake" do
         my_brain.learn(input).must_equal expected
       end
     end
