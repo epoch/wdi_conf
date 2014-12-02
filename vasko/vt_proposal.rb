@@ -1,3 +1,4 @@
+
 class Proposal
 
   def initialize

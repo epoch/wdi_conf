@@ -9,3 +9,8 @@ class Proposal
   end
 
 end
+
+proposal = Proposal.new
+
+p proposal.talk_name
+p "fasd"
