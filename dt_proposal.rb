@@ -1,11 +1,11 @@
 class Proposal
 
   def initialize
-    @buzz_words = ['WDI','Metaprogramming','muffins','super mario']
+    @buzz_words = ['canvas']
   end
 
   def talk_name
-    "dark secrets of ruby"
+    "canvas.js"
   end
 
 end
