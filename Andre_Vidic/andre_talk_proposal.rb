@@ -1,23 +1,18 @@
-class Sublime
+class Talk
 
-	def intialize
-		p "Andre's wdi_conf proposal on.."
+	def intro
+		intro = "Andre's wdi_conf talk on.."
+		p intro
+		p "-----------------------------------------"
 	end
 
-	def shortcuts
-		p "Sublime keyboard shortucts"
-		p "---------------------------"
-		p "A joint talk with Rob Will"
-
-		p "Topics to be covered"
-		p "--------------------"
-
-		p "Andre's Topics"
-		p "-Where to find cool sublime colour schemes"
-		p "-How to setting up colour toggle shortcut on sublime"
-
-		p "Rob's Topics"
+	def content
+		p "Rails"
+		p "   - Using forms to render partial pages"
+		p "-----------------------------------------"
 	end
 end
+Andres_talk = Talk.new
+Andres_talk.intro
+Andres_talk.content
 
-Sublime.new.shortcuts
